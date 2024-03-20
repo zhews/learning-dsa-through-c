@@ -1,2 +1,10 @@
 cmake_minimum_required(VERSION 3.28.3)
 project(learning-dsa-through-c)
+
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+add_compile_options(-Wall -Wextra -Werror -pedantic)
+
+add_executable(linear_search linear_search.c)
