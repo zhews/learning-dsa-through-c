@@ -8,3 +8,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 add_compile_options(-Wall -Wextra -Werror -pedantic)
 
 add_executable(linear_search linear_search.c)
+add_executable(binary_search binary_search.c)
