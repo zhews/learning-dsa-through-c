@@ -9,3 +9,6 @@ add_compile_options(-Wall -Wextra -Werror -pedantic)
 
 add_executable(linear_search linear_search.c)
 add_executable(binary_search binary_search.c)
+add_executable(two_crystal_balls two_crystal_balls.c)
+
+target_link_libraries(two_crystal_balls m)
