@@ -12,5 +12,6 @@ add_executable(binary_search binary_search.c)
 add_executable(two_crystal_balls two_crystal_balls.c)
 add_executable(bubble_sort bubble_sort.c)
 add_executable(queue queue.c)
+add_executable(stack stack.c)
 
 target_link_libraries(two_crystal_balls m)
