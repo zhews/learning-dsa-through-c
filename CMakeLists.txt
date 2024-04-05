@@ -13,5 +13,7 @@ add_executable(two_crystal_balls two_crystal_balls.c)
 add_executable(bubble_sort bubble_sort.c)
 add_executable(queue queue.c)
 add_executable(stack stack.c)
+add_executable(array_list array_list.c)
 
 target_link_libraries(two_crystal_balls m)
+target_link_libraries(array_list m)
